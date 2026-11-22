@@ -54,6 +54,64 @@ LOGO=$(cat <<'EOF'
 EOF
 )
 
+LOGO_SMALL=$(cat <<'EOF'                                                           
+                                    **++==                                
+                                  ****++=++**                             
+                                  ***+++++***                             
+                                  ***+++++***                             
+                    ==++******* **++++++++**********++===                 
+                    ++++++++++****++++++++****+++++++++++                 
+                    ***++++++++***+++++++++**+++++++++***                 
+                    ***+++++++++++++++++++++++++++++++***                 
+                     ****+++++++++++++++++++++++++++++***                 
+                      ***+++++++++++++++++++++++++++****                  
+                      ***++++++++++******+++++++++++**                    
+                         ++++++++++*******++++++++++                      
+                           ***********************                        
+                            *********************                         
+                             ******************                           
+                                    ****                                  
+                                    ****                                  
+                                    ****                                  
+                                    ****                                  
+                                    ****                                  
+                                    ****                                  
+                                    ####                                  
+                                    %%%%                                  
+                  ########%%%%%%###%%%%%%%%%%%%%%%%%%%%%%%%               
+               ##*+=-----========-================+*#####%%%%             
+               %##+-::::::::::::::::::::::::::-===+*######%%%             
+               %%%+-:::::::::::::::::::------=+###########%%%             
+               %%%+-::::::::::::::::::-+##################%%%             
+               %%%+-::::::::::::::::::-+##################%%%             
+               %%%+-::::::::::::::::::-+##################%%%             
+               %%%+-::::::::::::::::::-+##################%%%             
+               %%%*=----===----========*#################%%%%             
+               ########%%%%%##%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%             
+                #######################################%%%%@              
+                  %%*+=================+###############%%%%               
+                  %%*=::::::::::::::::-+###############%%%%               
+                  %%#+=================*###############%%%%               
+                  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%               
+EOF
+)
+
+LOGO_SMALLER=$(cat <<'EOF'            
+           *++*         
+      ++++*+++*+++      
+       *+++++++++*      
+        +++***+++       
+            *           
+            *           
+            *           
+     #++**+*****#%%%    
+     %::::::-**####%    
+     %::::::-######%    
+     #############%%    
+      %======#####%     
+EOF
+)
+
 LOGO_COLOR_MASK=$(cat <<'EOF'
                                                  OOOOOTTT
                                                  OOOOOTTTO
@@ -107,5 +165,63 @@ LOGO_COLOR_MASK=$(cat <<'EOF'
                         NNNNCCCCCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBNNN
                         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
                         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+EOF
+)
+
+LOGO_SMALL_COLOR_MASK=$(cat <<'EOF'
+                                    OOOTTT
+                                  OOOGGGGGOOO
+                                  OOOGGGGGOOO
+                                  OOOGGGGGOOO
+                    TTOOOOOOOOO OOGGGGGGGGOOOOOOOOOOOOTTT
+                    OOGGGGGGGGOOOOGGGGGGGGOOOOGGGGGGGGOOO
+                    OOGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGOOO
+                    OOGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGOOO
+                     OOOOGGGGGGGGGGGGGGGGGGGGGGGGGGGGGOOO
+                      OOOGGGGGGGGGOOOGGOOOGGGGGGGGGOOOOO
+                      OOGGGGGGGGGGOOOSSOOOGGGGGGGGGGOO
+                         GGOOOOOOOSSSSSSSSOOOOOOOGGG
+                           OOOOOOOSSSSSSSSOOOOOOOO
+                            SSSSSSSSSSSSSSSSSSSSO
+                             SSSSSSSSSSSSSSSSSS
+                                    SSSS
+                                    SSSS
+                                    SSSS
+                                    SSSS
+                                    SSSS
+                                    SSSS
+                                    SSSS
+                                    NNNN
+                  UUUUUUUNNNNNNNUUNNNNNNNNNNNNNNNNNNNNNNNNN
+               UUCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBNN
+               NNCCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBNN
+               NNCCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBNN
+               NNCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBNN
+               NNCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBNN
+               NNCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBNN
+               NNCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBNN
+               NNCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBNN
+               UUUUUUUNNNNNUUUNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+                UUUUBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBNNNN
+                  NNCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBNNN
+                  NNCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBNNN
+                  NNCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBNNN
+                  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+EOF
+)
+
+LOGO_SMALLER_COLOR_MASK=$(cat <<'EOF'
+           OGGO
+      TOOOOGGGOOOO
+       OGGGGGGGGGG
+        GGGOSOGGG
+            S
+            S
+            S
+     UUUNNNNNNNNNNNN
+     NCCCCCCCBBBBBBN
+     NCCCCCCCBBBBBBN
+     UUBBBBBBBBBBBNN
+      NCCCCCCBBBBBN
 EOF
 )
